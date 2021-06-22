@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your Fashion </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fashionpage.css">
+    
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form">
+            <div class="inputpage">
+                <div class="margin"> 
+                <div class="header">
+                    <h2>Know Your Style</h2>
+                </div> 
+                <div class="formcontrol ">
+                    <label for=""> <strong>Gender:</strong>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <i class="far fa-check-circle"></i>
+                    <i class="fas fa-times"></i>
+                    <br>
+                    </label>
+                    
+                </div>
+               <div class="formcontrol">
+                   <label for=""> <strong>Occupation</strong> : 
+                    <select name="Ocupation" id="occupation" required>
+                            <option value="">Select Occupation</option>
+                            <option value="Formal">Formal</option>
+                            <option value="Informal">Informal</option>
+                            <option value="Student">Student</option>
+                    </select>
+                    <i class="far fa-check-circle"></i>
+                    <i class="fas fa-times"></i>
+                    <br> 
+                    </label>
+                    
+                </div>
+                <div class="formcontrol">
+                    <label for=""> <strong>Age:</strong>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="number" name="Age" id="age" min="1" max="100" required></label><i class="far fa-check-circle"></i>
+                        <i class="fas fa-times"></i><br>
+
+                </div>
+                <div class="formcontrol">
+                    <label for=""> <strong>Preferred colors:</strong> 
+                    <input type="radio" id="bright" name="color" value="Bright" required>
+                    <label for="Bright">Bright</label>
+                    <input type="radio" id="dark" name="color" value="dark">
+                    <label for="dark">Dark</label> <i class="far fa-check-circle"></i>
+                    <i class="fas fa-times"></i>
+<br></label> 
+                </div>
+
+                <div class="formcontrol">
+                    <label for=""> <strong>Do you like sports?: </strong>
+                        <select name="Sports" id="sports" required>
+                                <option value=""> Pick Option:</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                        </select>
+                        <i class="far fa-check-circle" ></i>
+                        <i class="fas fa-times"></i>
+
+                        <br>
+                    </label>
+                </div>
+
+                <div class="formcontrol">
+                    <label for=""> <strong>Which word best describes you?:</strong> 
+                            <select name="word" id="word" required>
+                                    <option value="">Choose a word:</option>
+                                    <option value="Classic">Classic</option>
+                                    <option value="Old-School">Old-School</option>
+                                    <option value="Creative">Creative</option>
+                                    <option value="Hipster">Hipster</option>
+                                    <option value="Free-Spirit">Free-Spirit</option>
+                            </select>
+                            <i class="far fa-check-circle"></i>
+                            <i class="fas fa-times"></i>
+                             <br>
+                    </label>
+                    <p id="output"></p>
+                </div>
+                <input type="button" value="Start Styling" class="submit" onclick="styleFunction()">
+                </div>
+                
+
+
+            </div>
+        </form>
+    </div>
+    <script src="fashionpage.js"></script>
+</body>
+</html>
