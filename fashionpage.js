@@ -14,12 +14,14 @@ const word=document.getElementById('word').value;
 
     if( occupation=="Formal" && bright=="Bright" && sports=="Yes" && word=="Classic"){
         document.getElementById("output").innerHTML=("Your style is official bright with a touch of sporty")
-        
-    } else if(occupation=="Formal" && dark=="Dark" && sports=="No" && word=="Classic"){
+    }
+     else if(occupation=="Formal" && dark=="Dark" && sports=="No" && word=="Classic"){
         document.getElementById("output").innerHTML=('Your style is official and preference is dull colored clothing')
-
-
-    }else if( occupation=="Student" && bright=="Bright" && sports=="Yes" && word=="Classic"){
+    }
+    else if(occupation=="Formal" && dark=="Dark" && sports=="Yes" && word=="Classic"){
+        document.getElementById("output").innerHTML=('Your style is official with a sport touch and preference is dull colored clothing')
+    }
+    else if( occupation=="Student" && bright=="Bright" && sports=="Yes" && word=="Classic"){
         document.getElementById("output").innerHTML=("Bright and official clothing is a great choice for a student. Also good choice on the sporty side")
     }
     else if( occupation=="Student" && dark=="Dark" && sports=="Yes" && word=="Classic"){
