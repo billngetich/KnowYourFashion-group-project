@@ -1,0 +1,95 @@
+
+#display {
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 600px;
+
+}
+#display img{
+    height: 250px;
+    width:250px;
+}
+.collection{
+    display: flex;
+    padding: 10px;
+    padding-left: 20px;
+}
+#image1{
+    width: 150px;
+    height: 150px;
+    background-image: url(./Assets/ivana.jpg);
+    background-size:cover;
+    border-radius: 50%;
+    margin-left: 250px;
+    opacity: 0.95;
+}
+#image2{
+    width: 150px;
+    height: 150px;
+    background-image: url(./Assets/shirts-removebg-preview.png);
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+#image3{
+    width: 150px;
+    height: 150px;
+    background-image: url(./Assets/toja.jpg);
+    background-size:cover;
+    border-radius: 50%;
+    margin-left: 50px;
+    opacity: 0.95;
+}
+#image4{
+    width: 150px;
+    height: 150px;
+    background-image: url(./Assets/WPD-Article-Images-87.png);
+    background-size: cover;
+    margin-left: 50px;
+    border-radius: 50%;
+    opacity: 0.9;
+}
+.collection p{
+    text-align: center;
+    padding-top: 60px;
+    font-size: x-large;
+    font-style:'poppins' ;
+    color: white;
+}
+#image1:hover {
+    opacity: 0.4;
+}
+#image2:hover {
+    opacity: 0.4;
+}
+#image3:hover {
+    opacity:0.4;
+}
+#image4:hover{
+    opacity: 0.4;
+}
+#article{
+    border: 1px solid black;
+    color: #fff;
+    background-color: black;
+    width: 200px;
+    text-align:center;
+    margin-left:500px ;
+    font-style: 'Poppins';
+    font-weight: bolder;
+    border-radius: 50px;
+    font-size: xx-large;
+    margin-left: 600px;
+}
+#list {
+    text-align: center;
+    
+}
+#display {
+    text-align: center;
+    justify-content: center;
+}
