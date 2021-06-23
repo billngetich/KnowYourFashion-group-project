@@ -1,0 +1,242 @@
+body,html{
+    padding:0;
+    margin:0;
+
+
+    
+
+}
+
+
+ul li{
+    display: inline;
+}
+.nav{
+border-width:1px 0;
+list-style:none;
+margin:0;
+padding:0;
+text-align:center;
+box-sizing: border;
+height:100px;
+background-color: transparent;
+background-image: url("Know-Your-Fashion/Assets/womensuites.png");
+height: 1000px;
+background-repeat: no-repeat;
+background-size: auto;
+
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+}
+.logo{
+    float: left;
+    margin: 0 0 0 20px;
+    font-size: 30px;
+    text-align: space-between;
+    font-family:'Caveat', cursive;
+    color: purple;
+}
+.icons{
+    float: right;
+    
+}
+.icons2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icons2 li a .fa {
+        margin-right: 200px;
+    }
+
+.headerone{
+    text-align: center;
+    text-shadow:0 5px 5px lightslategrey;
+    font-size: 20px;
+}headerone h1 {
+    overflow: hidden;
+    text-align: center;
+    }
+
+    .headerone h1:before,
+    .headerone h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    }
+
+    .headerone h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+    }
+
+    .headerone h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+    }
+
+.coolphotos{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.yara,
+.girl,
+.mancool{
+position: relative;
+display: block;
+
+
+}
+.coolphotos h2{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: (0,0,0,0.6);
+    color: whitesmoke;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.25s;
+font-size: 1.1cm;
+backdrop-filter: blur(5px);
+
+}
+.coolphotos h2:hover{
+    opacity: 1;
+    transform: translateY(20px);
+
+
+}
+.headertwo{
+    text-align: center;
+    text-shadow:0 5px 5px lightslategrey;
+    font-size: 20px;
+
+}
+.headertwo h1 {
+    overflow: hidden;
+    text-align: center;
+    }
+
+    .headertwo h1:before,
+    .headertwo h1:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    }
+
+    .headertwo h1:before {
+    right: 0.5em;
+    margin-left: -50%;
+    }
+
+    .headertwo h1:after {
+    left: 0.5em;
+    margin-right: -50%;
+    }
+
+.photos{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.couple,
+.children,
+.man,
+.woman{
+
+    position: relative;
+    display:flex;
+    justify-content: space-around;
+    box-shadow: 5px 5px 5px 5px black;
+
+}
+.photos h1{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: (0,0,0,0.6);
+    color:purple;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.25s;
+font-size: 1.1cm;
+
+}
+.photos h1:hover{
+    opacity: 1;
+    transform: translatex(20px);
+}
+.layout{
+    display: flex;
+    padding-left: 20px;
+}
+.form{
+    display: flex;
+}
+.button{
+    margin-top: 40%;
+    margin-left: 20%;
+}
+.button #shopmore{
+    font-size: xx-large;
+    background-color: purple;
+    color: white;
+    border-radius: 15%;
+}
+.bottomtext{
+    border: 6px  lightblack;
+    background-color: grey;
+    box-shadow:2px 2px 2px 2px lightgray;
+    margin-left: 20%;
+
+}
+.bottomtext h1{
+    text-align: center;
+    color: lightgray;
+}
+.bottomtext.covered{
+    color: blueviolet;
+}
+.footerone{
+    display: flex;
+    background-color: blueviolet;
+        
+}
+.footerone .footertext, .Customercare, .Quicklinks{
+    color: thistle;
+    font-size: 0.6cm;
+    justify-content: space-evenly;
+}
+.footerone .footertext, .Customercare:hover{
+    
+} 
+.footertwo{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footertwo p{
+text-align: center;
+font-size: 0.5cm;
+} 
+
