@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Cart Page</title>
+    <link rel="stylesheet" type="text/css" href="./cart.css">
+</head>
+<body>
+    <div id="article">
+        <h2>
+            Get Your New Collection
+        </h2>
+    </div>
+
+    <div class="collection">
+        <div id="image1">
+            <p >Outfits</p>
+        </div>
+        <div id="image2">
+            <p>Shirts</p>
+        </div>
+        <div id="image3">
+            <p >Trousers</p>
+        </div>
+        <div id="image4">
+            <p >Featured</p>
+        </div>
+    </div>
+    <div id="list">
+        <label for="">Choose Your Style
+            <select name="choice" id="choice" onchange="createDoll(this.value)">
+            <option value="0">Classic</option>
+            <option value="1">Sporty</option>
+            <option value="2">Old school</option>
+            <option value="3">Free Spirit</option>
+            <option value="4">Creative</option>
+            <option value="5">Hipster</option>
+            </select>
+        </label>
+    </div>
+    <div id="display"></div>
+    <script src="./cart.js" type="text/javascript"></script>
+    <div id="shop">
+        <p>Shop Now &#8594;</p>
+    </div>
+
+
+     
+</body>
+</html>
