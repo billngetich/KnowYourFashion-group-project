@@ -8,7 +8,7 @@
    .section{
        width: 100%;
        min-height: 100vh;
-       background-color: #ddd;
+       background-color: #768BA6;
 
 
    }
@@ -49,6 +49,7 @@
    .content-section .title{
        text-transform: uppercase;
        font-size: 28px;
+       color: purple;
    
 
    }
@@ -114,7 +115,7 @@
        
 }
 body{
-   background-color: #ddd;
+   background-color:#768BA6;
 }
 .wrapper h2{
     font-family: 'Allura',cursive;
@@ -129,11 +130,11 @@ body{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    background-color: #ddd;
+    background-color: #768BA6;
 }
 
 .team .team_member{
-    background-color: beige;
+    background-color: #8fb9f0;
 
     margin: 5px;
     margin-bottom: 50px;
@@ -175,7 +176,7 @@ body{
     height: 150px;
     padding: 20px;
     top: 10%;
-    background-color: #ddd;
+    background-color: rgb(120, 136, 115);
     
 
 
