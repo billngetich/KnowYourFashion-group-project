@@ -113,3 +113,15 @@ margin-left: 10%;
     text-shadow: 0.5px 2px  purple;
     font-family: 'Architects Daughter', cursive;
 }
+
+
+/* footer styling */
+.footertwo{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footertwo p{
+text-align: center;
+font-size:medium;
+}
