@@ -5,7 +5,8 @@ body,html{
 
     
 
-}
+} 
+
 
 
 ul li{
@@ -20,8 +21,7 @@ text-align:center;
 box-sizing: border;
 height:100px;
 background-color: transparent;
-background-image: url("Know-Your-Fashion/Assets/womensuites.png");
-height: 1000px;
+height: 10px;
 background-repeat: no-repeat;
 background-size: auto;
 
