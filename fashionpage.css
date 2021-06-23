@@ -1,5 +1,8 @@
 *{
     font-family: 'Poppins', sans-serif;
+    /* background-image: url(./Know-Your-Fashion/Assets/korie-cull-OmIEij4MhnA-unsplash.jpg); */
+    /* background-repeat: no-repeat; */
+    
 }
 .inputpage{
     
@@ -11,17 +14,20 @@
     height: 650px;
     line-height: 60px;
     margin-bottom:10px;
-    background-color: lightgray;
+    background-color: gray;
     margin-left: 32%;
     margin-top: 10%;
+    border-radius: 10%;
+    overflow: hidden;
+    box-shadow: 0px 2px 10px 2px purple;
     
 }
 .margin{
     margin-left: 30px;
 }
 .submit{
-    background-color: blue;
-    color: white;
+    background-color: purple;
+    color: black;
     font-weight: bold;
     border-radius: 20%;
     margin-left: 30%;
@@ -41,4 +47,35 @@
 }
 .formcontrol i.fa-times{
     color: red;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #768BA6;
+    
+}
+.fashionstyle{
+text-align: left;
+margin-top:10%;
+width: 20%;
+height: 30px;
+margin-left: 10%;
+
+}
+.fashionstyle h2{
+    color:purple;
+    text-shadow: 0.5px 2px  black;
+}
+
+
+.fashionimage img{
+    height: 40%;
+    width: 70%;
+}
+#output{
+    color: black;
+    text-shadow: 0.5px 2px  purple;
+    font-family: 'Architects Daughter', cursive;
 }

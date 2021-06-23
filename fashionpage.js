@@ -28,5 +28,14 @@ const word=document.getElementById('word').value;
     else if( occupation=="Student" && bright=="Bright" && sports=="Yes" && word=="Classic"){
         document.getElementById("output").innerHTML=("Bright and official clothing is a great choice for a student. Also good choice on the sporty side")
     }
+    else if( occupation=="Formal" && dark=="Dark" && sports=="Yes" && word=="Old-School"){
+        document.getElementById("output").innerHTML=("Your style revolves around an official sporty and vintage with dark colors")
+    }
+    else if( occupation=="Student" && bright=="Bright" && sports=="Yes" && word=="Old-School"){
+        document.getElementById("output").innerHTML=("As a student Bright sporty and oldschool is a great choice of style")
+    }
 }
+
+   
+    
 
