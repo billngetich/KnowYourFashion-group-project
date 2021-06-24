@@ -1,0 +1,70 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body, html{
+    margin:0;
+    padding:0;
+    border:0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgray;
+    background-image: url('https://cdn.shopify.com/s/files/1/0186/1574/files/Champion_Hero_D_2000x.jpg?v=1622566831');
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+}
+
+.container{
+    box-sizing: border-box;
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    text-align: center;
+    width:30%;
+    height:50vh;
+    transform: translate(100%);
+    box-shadow: 5px solid black;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius:10%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+}
+input[type=email], input[type=password]{
+    width:100%;
+    padding:12px 20px;
+    margin:8px 0;
+    display:inline-block;
+    border:1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: blue;
+    color: white;
+    padding:14px 20px;
+    margin:8px 0;
+    border:none;
+    cursor:pointer;
+    width:100%;
+}
+.form>h2{
+    color:blue;
+}
+.form>h4{
+    color:gray;
+}
+.container>p>a{
+    text-decoration: none;
+}
+.container{
+    /* background-color: transparent; */
+    opacity: 0.8;
+    font-weight: 700;
+}
+h2, h4 {
+    font-weight: 700;
+}
