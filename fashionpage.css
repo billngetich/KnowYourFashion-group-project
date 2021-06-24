@@ -67,6 +67,17 @@ background-color: transparent;
     margin-left: 30%;
     margin-top: 40px;
 }
+#options{
+    background-color: purple;
+    color: black;
+    font-weight: bold;
+    border-radius: 20%;
+    margin-top: 40px;
+}
+#options>a{
+    text-decoration: none;
+    color:black;
+}
 .formcontrol{
     position: relative;
 }
