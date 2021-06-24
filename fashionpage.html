@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Know Your Fashion </title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fashionpage.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="logo">
+             <h3>Know Your Fashion</h3>
+             </div>
+             <div class="icons">
+                 <ul>
+                    <li><a href="#"><i class="fa fa-home fa-3x" style="color:blueviolet"aria-hidden="true"></i></a></li>
+                    <li><a href="#" > <i class="fas fa-tshirt fa-3x" aria-hidden="true" style="color: blueviolet"></i></a></li>
+                    <li><a href="#" >  <i class="fas fa-tag fa-3x" aria-hidden="true" style="color: blueviolet"></i></a></li>
+                    <li><a href="#" ><i class="fas fa-address-card fa-3x" aria-hidden="true" style="color: blueviolet"></i></a></li>
+                    <li><a href="#" ><i class="fa fa-sign-in fa-3x" aria-hidden="true" style="color: blueviolet"></i></a></li>
+   
+             </div>
+         </div>
+    </header>
+    <div class="container">
+        <div class="fashionstyle">
+            <div class="fashionimage">
+                <img src="./Know-Your-Fashion/Assets/ivana-cajina-_7LbC5J-jw4-unsplash-removebg-preview.png" alt="">
+            </div>
+        <h2>Style and Fashion</h2>
+        <p>There is an overlap between style and fashion,
+            but a good rule of thumb is that style relates to
+            the individual, while fashion is more collective <strong><a href="https://www.cozibearboutique.com/blogs/cozi-bear-news/the-different-types-of-fashion-styles">LEARN MORE ABOUT DIFFERENT TYPE OF FASHION STYLES</a></strong></p>
+        </div>
+        <form action="" id="form">
+            <div class="inputpage">
+                <div class="margin"> 
+                <div class="header">
+                    <h2>Know Your Style</h2>
+                </div> 
+                <div class="formcontrol ">
+                    <label for=""> <strong>Gender:</strong>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input type="radio" id="male" name="gender" value="Male" required>
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <label for="female">Female</label>
+                    <i class="far fa-check-circle"></i>
+                    <i class="fas fa-times"></i>
+                    <br>
+                    </label>
+                    
+                </div>
+               <div class="formcontrol">
+                   <label for=""> <strong>Occupation</strong> : 
+                    <select name="Ocupation" id="occupation" required>
+                            <option value="">Select Occupation</option>
+                            <option value="Formal">Formal</option>
+                            <option value="Informal">Informal</option>
+                            <option value="Student">Student</option>
+                    </select>
+                    <i class="far fa-check-circle"></i>
+                    <i class="fas fa-times"></i>
+                    <br> 
+                    </label>
+                    
+                </div>
+                <div class="formcontrol">
+                    <label for=""> <strong>Age:</strong>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                        <input type="number" name="Age" id="age" min="1" max="100" required></label><i class="far fa-check-circle"></i>
+                        <i class="fas fa-times"></i><br>
+
+                </div>
+                <div class="formcontrol">
+                    <label for=""> <strong>Preferred colors:</strong> 
+                    <input type="radio" id="bright" name="color" value="Bright" required>
+                    <label for="Bright">Bright</label>
+                    <input type="radio" id="dark" name="color" value="dark">
+                    <label for="dark">Dark</label> <i class="far fa-check-circle"></i>
+                    <i class="fas fa-times"></i>
+<br></label> 
+                </div>
+
+                <div class="formcontrol">
+                    <label for=""> <strong>Do you like sports?: </strong>
+                        <select name="Sports" id="sports" required>
+                                <option value=""> Pick Option:</option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option>
+                        </select>
+                        <i class="far fa-check-circle" ></i>
+                        <i class="fas fa-times"></i>
+
+                        <br>
+                    </label>
+                </div>
+
+                <div class="formcontrol">
+                    <label for=""> <strong>Which word best describes you?:</strong> 
+                            <select name="word" id="word" required>
+                                    <option value="">Choose a word:</option>
+                                    <option value="Classic">Classic</option>
+                                    <option value="Old-School">Old-School</option>
+                                    <option value="Creative">Creative</option>
+                                    <option value="Hipster">Hipster</option>
+                                    <option value="Free-Spirit">Free-Spirit</option>
+                            </select>
+                            <i class="far fa-check-circle"></i>
+                            <i class="fas fa-times"></i>
+                             <br>
+                    </label>
+                    <p id="output"></p>
+                </div>
+                <input type="button" value="Start Styling" class="submit" onclick="styleFunction()">
+                <button id="options"><a href="#">View options</a></button>
+                </div>
+                
+
+
+            </div>
+        </form>
+    </div>
+    <script src="fashionpage.js"></script>
+</body>
+<div class="footertwo">
+    <P> Copyright @2021 Moringa School Project. All Rights Reserved. Website Design by Maureen,Peter,Kevin,Bill,Japheth</P>
+    <p>Know Your Fashion Website BY Moringa Student</p>
+</div>
+</html>
