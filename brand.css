@@ -1,3 +1,6 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
 body, html{
     margin:0;
     padding:0;
@@ -9,6 +12,65 @@ body{
     display:flex;
     flex-direction: column;
 }
+ul li{
+    display: inline;
+}
+.nav{
+border:1px solid #ccc;
+border-width:1px 0;
+list-style:none;
+margin:0;
+padding:0;
+text-align:center;
+box-sizing: border;
+height:100px;
+background-color: transparent;
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+}
+.logo{
+    float: left;
+    margin: 0 0 0 20px;
+    font-size: 30px;
+    text-align: space-between;
+    font-family:'Caveat', cursive;
+    color: purple;
+}
+.icons{
+    float: right;
+}
+[2:40 PM] ul li{
+    display: inline;
+}
+.nav{
+border:1px solid #ccc;
+border-width:1px 0;
+list-style:none;
+margin:0;
+padding:0;
+text-align:center;
+box-sizing: border;
+height:100px;
+background-color: transparent;
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+}
+.logo{
+    float: left;
+    margin: 0 0 0 20px;
+    font-size: 30px;
+    text-align: space-between;
+    font-family:'Caveat', cursive;
+    color: purple;
+}
+.icons{
+    float: right;
+}
+
 .h1{
     display:flex;
     align-items: center;
@@ -130,4 +192,14 @@ body{
     content: '\f0d1';
     color:#fff;
     font-size: 18px;
+}
+
+.footertwo{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footertwo p{
+text-align: center;
+font-size: 0.5cm;
 }
