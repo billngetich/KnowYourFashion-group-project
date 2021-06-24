@@ -27,7 +27,7 @@ body,html{
 
 }
 .menutxt{
-    font-family:'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     margin-bottom: -20px;
     color: blueviolet;
@@ -245,9 +245,6 @@ font-size: 1.1cm;
     font-size: 0.6cm;
     justify-content: space-evenly;
 }
-.footerone .footertext, .Customercare:hover{
-    
-} 
 .footertwo{
     background-color: grey;
     padding-top: 20px;
