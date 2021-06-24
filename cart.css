@@ -3,14 +3,14 @@
     background-color: white;
     border: 1px solid black;
     text-align: center;
-    width: 250px;
-    height: 250px;
-    margin-left: 600px;
+    width: 500px;
+    height: 500px;
+    margin-left: 500px;
 
 }
 #display img{
-    height: 250px;
-    width:250px;
+    height: 500px;
+    width:500px;
 }
 .collection{
     display: flex;
@@ -20,7 +20,7 @@
 #image1{
     width: 150px;
     height: 150px;
-    background-image: url(./Assets/ivana.jpg);
+    background-image: url(./fashion/Assets/ivana.jpg);
     background-size:cover;
     border-radius: 50%;
     margin-left: 250px;
@@ -29,7 +29,7 @@
 #image2{
     width: 150px;
     height: 150px;
-    background-image: url(./Assets/shirts-removebg-preview.png);
+    background-image: url(./fashion/Assets/shirts-removebg-preview.png);
     background-size: cover;
     margin-left: 50px;
     border-radius: 50%;
@@ -38,7 +38,7 @@
 #image3{
     width: 150px;
     height: 150px;
-    background-image: url(./Assets/toja.jpg);
+    background-image: url(./fashion/Assets/toja.jpg);
     background-size:cover;
     border-radius: 50%;
     margin-left: 50px;
@@ -47,7 +47,7 @@
 #image4{
     width: 150px;
     height: 150px;
-    background-image: url(./Assets/WPD-Article-Images-87.png);
+    background-image: url(./fashion/Assets/WPD-Article-Images-87.png);
     background-size: cover;
     margin-left: 50px;
     border-radius: 50%;
@@ -78,7 +78,6 @@
     background-color: black;
     width: 200px;
     text-align:center;
-    margin-left:500px ;
     font-style: 'Poppins';
     font-weight: bolder;
     border-radius: 50px;
@@ -93,3 +92,71 @@
     text-align: center;
     justify-content: center;
 }
+body {
+    background-color: lightgrey;
+}
+#shop {
+    text-align: center;
+    border: 1px solid black;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    margin-left: 650px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+}
+ul li{
+    display: inline;
+}
+.nav{
+border:1px solid #ccc;
+border-width:1px 0;
+list-style:none;
+margin:0;
+padding:0;
+text-align:center;
+box-sizing: border;
+height:100px;
+background-color: transparent;
+}
+.nav a{
+    display:inline-block;
+    padding:20px;
+}
+.logo{
+    float: left;
+    margin: 0 0 0 20px;
+    font-size: 30px;
+    text-align: space-between;
+    font-family:'Caveat', cursive;
+    color: purple;
+}
+.icons{
+    float: right;
+}
+.footertwo{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.footertwo p{
+text-align: center;
+font-size:medium;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
