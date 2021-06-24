@@ -245,6 +245,32 @@ font-size: 1.1cm;
     font-size: 0.6cm;
     justify-content: space-evenly;
 }
+input{
+    float: left;
+    margin-bottom: 50px;
+}
+
+.rows input {
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 300px;
+}
+
+.submit-button {
+    padding: 18px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+}
+
+
+.rows input::placeholder {
+    font-size: 20px;
+}
 .footertwo{
     background-color: grey;
     padding-top: 20px;
